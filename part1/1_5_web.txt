@@ -1,0 +1,12 @@
+docker run -d -it --name onedotfive ubuntu:16.04 sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+
+docker exec -it onedotfive bash
+
+echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; 
+
+apt-get update && apt-get install -y curl
+
+echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;
+
+
+
