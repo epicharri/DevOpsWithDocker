@@ -1,0 +1,6 @@
+#Command to run container was:
+docker run docker-clock
+
+#Dockerfile for this exercise is located in /1_6_Dockerfile/1_6_Dockerfile
+
+
